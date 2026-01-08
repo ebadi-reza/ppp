@@ -175,12 +175,12 @@
         
         <div class="input-group">
             <label>نام کالا</label>
-            <input type="text" id="commodity" placeholder="مثلاً: گوشت گوساله (۱ کیلو)" value="گوشت گوساله (۱ کیلو)">
+            <input type="text" id="commodity" placeholder="مثلاً: گوشت گوساله با استخوان (۱ کیلو)" value="گوشت گوساله با استخوان (۱ کیلو)">
         </div>
         
         <div class="input-group">
             <label>سال مبنا</label>
-            <input type="number" id="baseYear" placeholder="مثلاً: 2002" value="2002">
+            <input type="number" id="baseYear" placeholder="مثلاً: 1381" value="1381">
         </div>
         
         <div class="row">
@@ -195,13 +195,13 @@
         </div>
         
         <div class="input-group">
-            <label>ضریب تورم آمریکا (از سال مبنا تا الان)</label>
+            <label>ضریب تورم آمریکا (از سال مبنا تا الان) — <a href="https://www.bls.gov/data/inflation_calculator.htm" target="_blank" style="color: #4a9eff;">محاسبه</a></label>
             <input type="number" id="usInflation" placeholder="مثلاً: 1.82" value="1.82" step="any">
         </div>
         
         <div class="input-group">
             <label>قیمت فعلی در ایران (تومان)</label>
-            <input type="number" id="currentPrice" placeholder="مثلاً: 700000" step="any">
+            <input type="number" id="currentPrice" placeholder="مثلاً: 950000" step="any">
         </div>
         
         <button onclick="calculate()">محاسبه</button>
