@@ -262,7 +262,7 @@
             const baseUsd = basePrice / baseRate;
             const expectedUsd = baseUsd * usInflation;
             const iranInflation = currentPrice / basePrice;
-            const impliedRate = iranInflation * baseRate;
+            const impliedRate = currentPrice / expectedUsd;
             
             // Display results
             document.getElementById('baseUsd').textContent = '$' + formatNumber(baseUsd);
