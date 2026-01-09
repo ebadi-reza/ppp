@@ -279,7 +279,7 @@
             
             document.getElementById('impliedRate').textContent = formatNumber(impliedRate) + ' تومان/$';
             document.getElementById('impliedRateFormula').textContent = 
-                `${formatNumber(iranInflation)} × ${formatNumber(baseRate)} = ${formatNumber(impliedRate)}`;
+                `${formatNumber(currentPrice)} ÷ ${formatNumber(expectedUsd)} = ${formatNumber(impliedRate)}`;
             
             document.getElementById('results').classList.add('show');
         }
